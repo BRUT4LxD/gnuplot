@@ -1,6 +1,6 @@
 set style line 1 lc rgb "#8b0000" lw 2 dt 3 lt 0
 set style line 2 lc rgb "#ab0000" lw 2 dt 3 lt 0
-set key bottom left box width 1
+set key bottom right box width 1
 set grid
 set border 3
 set tics nomirror
