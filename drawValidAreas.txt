@@ -1,4 +1,4 @@
-splot f1(x,y), f2(x,y), f3(x,y), f4(x,y), 'gradientf2.tsv' ls 2 w lp, 'gradientf1.tsv' ls 1 w lp, (0,0,2)
-#splot f2(x,y), f3(x,y), f4(x,y), 'gradientf2.tsv' ls 2 w lp, 'gradientf1.tsv' ls 1 w lp, (0,0,2)
+splot f1(x,y) ls 2, f2(x,y) ls 3, f3(x,y) ls 8, f4(x,y) ls 6, 'gradientf2.tsv' ls 0 w lp, 'gradientf1.tsv' ls 0 w lp, (0,0,2)
+#splot f2(x,y) ls 2, f3(x,y) ls 3, f4(x,y) ls 4, 'gradientf2.tsv' ls 2 w lp, 'gradientf1.tsv' ls 1 w lp, (0,0,2)
 set arrow 1 from 0,0,0 to 2,3,1
 set arrow 2 from 0,0,0 to 1,-1,1

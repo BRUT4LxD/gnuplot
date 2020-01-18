@@ -1,0 +1,4 @@
+load "styles.txt"
+load "setFunctions.txt"
+set hidden3d
+load "drawValidAreas.txt"
