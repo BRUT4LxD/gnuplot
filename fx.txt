@@ -1,0 +1,4 @@
+set xr[10:23]
+set yr[2:12]
+load "styles.txt"
+plot "fx_points.txt" ls 3 w lp filledcu closed

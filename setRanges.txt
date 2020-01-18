@@ -1,2 +1,2 @@
 set xr[-3:6]
-set yr[-3:6]
+set yr[-2:7]
