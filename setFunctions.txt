@@ -1,0 +1,9 @@
+set xr[-1:6]
+set yr[-1:6]
+set zr[-1:6]
+validXY(x,y) = (x >= 1 && x <= 4 && y >= 2 && y <= 5)
+f1(x, y) = (x + y >= 4 && validXY(x,y) && x + y - 4 >= 2 && x + y - 4 <= 6) ? x + y - 6 : 1/0
+f2(x, y) = (x - y >= -1 && validXY(x,y) && x - y + 1 >= 2 && x - y + 1 <= 6) ? x - y + 1 : 1/0
+f3(x, y) = (y - x >= 1 && validXY(x,y) && y - x - 1 >= 2 && y - x - 1 <= 6) ? y - x - 1 : 1/0
+f4(x, y) = (validXY(x,y) && 10 - x - y >= 2 && 10 - x - y <= 6) ? 10 - x - y : 1/0
+set iso 100

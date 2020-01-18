@@ -1,0 +1,1 @@
+splot 'gradientf2.tsv' linetype 0 dt 2 lw 2 with linespoints, 'gradientf1.tsv' linetype 0 dt 2 lw 2 with linespoints

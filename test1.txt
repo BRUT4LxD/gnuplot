@@ -1,0 +1,5 @@
+t1(x,y) = (x + y - 4 < 10 - x - y) ? 10 - x - y : 1/0
+t2(x,y) = (x - y + 1 < 10 - x - y) ? 10 - x - y : 1/0
+t3(x,y) = (y - x - 1 < 10 - x - y) ? 10 - x - y : 1/0
+inter(x,y) = (t1(x,y) == t2(x,y) && t2(x,y) == t3(x,y) && t1(x,y) == t3(x,y)) ? 10 - x - y : 1/0
+splot inter(x,y)

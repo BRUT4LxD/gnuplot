@@ -1,0 +1,2 @@
+set style line 1 lc rgb "#8b0000" lw 2 dt 3 lt 7
+set style line 2 lc rgb "#ab0000" lw 2 dt 3 lt 7
