@@ -17,4 +17,4 @@ f2_2d(x) = valid2d_2(x) ? f2_2dbase(x) : 1/0
 set obj 1 rect from 2,2 to 3,5 
 set obj 1 rect fc rgb "#ff0000" fillstyle transparent noborder
 set style fill transparent solid 0.5 noborder
-plot "c3_origin.txt" ls 1 w lp, "c3d.txt" ls 0 lw 2 dt 3 lc 2 w lp, "c3inf.txt" pt 7,f1_2d(x) ls 3 lc rgb "#ff0000" w filledcu y=5, f2_2d(x) lc rgb "#ff0000" w filledcu y2=2, ymin, ymax
+plot "c3_origin.txt" ls 1 w lp, "c3d.txt" ls 9 lw 2 dt 3 lc 2 w lp, "c3inf.txt" pt 7,f1_2d(x) ls 3 lc rgb "#ff0000" w filledcu y=5, f2_2d(x) lc rgb "#ff0000" w filledcu y2=2, ymin, ymax
