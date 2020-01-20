@@ -1,0 +1,10 @@
+reset
+load "setFRanges.txt"
+load "styles.txt"
+plot \
+	"c4_origin.txt" title "c4" ls 1 w lp,\
+	"fx_points.txt" title "F(x)" ls 7 w lp,\
+	"c4d.txt" title "ld(Y,R)" ls 1 lw 2 lc 2 w lp,\
+	"c4inf.txt" title "YDR, infrY, Yp=1,2,∞" pt 7,\
+	"c4d(y).txt" notitle ls 1 w lp,\
+	"d(y).txt" title "d(y)" pt 3 ps 1 lc rgb "blue"

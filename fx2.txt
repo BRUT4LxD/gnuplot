@@ -1,0 +1,12 @@
+reset
+load "setFRanges.txt"
+load "styles.txt"
+plot \
+	"c2_origin.txt" title "c2" ls 1 w lp,\
+	"c2d.txt" title "ld(Y,R)" ls 1 lw 2 lc 2 w lp,\
+	"c2inf.txt" title "YDR, infrY, Yp=1,2,∞" pt 7,\
+	"fx_points.txt"  title "F(x)" ls 7 w lp,\
+	"ymin.txt" title "YNR" ls 16 w lp,\
+	"yinf2.txt" title "Yyp=2" pt 6,\
+	"c2d(y).txt" notitle ls 1 w lp,\
+	"d(y).txt" title "d(y)" pt 3 ps 1 lc rgb "blue"

@@ -1,3 +1,4 @@
+reset
 load "styles.txt"
 set xr[-3:8]
 set yr[-3:8]
@@ -15,8 +16,8 @@ valid2d_1(x) = (f1_2dbase(x) <= ymax && f1_2dbase(x)>=ymin && x <=xmax && x>=xmi
 valid2d_2(x) = (f2_2dbase(x) <= ymax && f2_2dbase(x)>=ymin && x <=xmax && x>=xmin)
 f1_2d(x) = valid2d_1(x) ? f1_2dbase(x) : 1/0
 f2_2d(x) = valid2d_2(x) ? f2_2dbase(x) : 1/0
-set style fill transparent
 set obj 1 rect from 2,2 to 3,5 
 set obj 1 rect fc rgb "#ff0000" fillstyle transparent noborder
+set style fill transparent solid 0.5 noborder
 plot f1_2d(x) lc rgb "#ff0000" w filledcu y=5 fillstyle transparent, f2_2d(x) lc rgb "#ff0000" w filledcu y2=2, ymin, ymax
 
