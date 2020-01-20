@@ -1,4 +1,5 @@
 reset
+set pm3d
 load "styles.txt"
 set xr[-3:8]
 set yr[-3:8]

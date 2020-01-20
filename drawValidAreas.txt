@@ -1,4 +1,14 @@
-splot f1(x,y) ls 2, f2(x,y) ls 3, f3(x,y) ls 8, f4(x,y) ls 6, 'gradientf2.tsv' ls 0 w lp, 'gradientf1.tsv' ls 0 w lp, (0,0,2)
+set pm3d
+splot \
+	f1(x,y) ls 2,\
+	f2(x,y) ls 3,\
+	f3(x,y) ls 8,\
+	f4(x,y) ls 6,\
+	(0,0,2),\
+	"c1best.txt" title "F-1(Y^y_{p=2})Λ_1" pt 7,\
+	"c2best.txt" title "F-1(Y^y_{p=2})Λ_2" pt 7,\
+	"c3best.txt" title "F-1(Y^y_{p=1,2,∞})Λ_3" pt 7,\
+	"c4best.txt" title "F-1(Y^y_{p=1,2,∞})Λ_4" pt 7
 #splot f2(x,y) ls 2, f3(x,y) ls 3, f4(x,y) ls 4, 'gradientf2.tsv' ls 2 w lp, 'gradientf1.tsv' ls 1 w lp, (0,0,2)
 set arrow 1 from 0,0,0 to 2,3,1
 set arrow 2 from 0,0,0 to 1,-1,1
