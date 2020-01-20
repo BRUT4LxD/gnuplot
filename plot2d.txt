@@ -21,8 +21,8 @@ set obj 1 rect from 2,2 to 3,5
 set obj 1 rect fc rgb "#ff0000" fillstyle transparent noborder
 set style fill transparent solid 0.5 noborder
 plot \
-	f1_2d(x) title "6-x" lc rgb "#ff0000" w filledcu y=5 fillstyle transparent,\
-	f2_2d(x) title "10-x" lc rgb "#ff0000" w filledcu y2=2,\
+	f1_2d(x) title "4-x" lc rgb "#ff0000" w filledcu y=5 fillstyle transparent,\
+	f2_2d(x) title "8-x" lc rgb "#ff0000" w filledcu y2=2,\
 	ymin,\
 	ymax,\
 	"c1best.txt" title "F-1(Y^y_{p=2})Λ_1" pt 7,\
