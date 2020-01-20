@@ -2,9 +2,9 @@ reset
 load "setFRanges.txt"
 load "styles.txt"
 plot \
-	"c3_origin.txt" title "c3" ls 1 w lp,\
+	"c3_origin.txt" title "Λ_3" ls 1 w lp,\
 	"fx_points.txt" title "F(x)" ls 7 w lp,\
 	"c3d.txt" title "ld(Y,R)" ls 1 lw 2 lc 2 w lp,\
-	"c3inf.txt" title "YDR, infrY, Yp=1,2,∞" pt 7,\
+	"c3inf.txt" title "Y_D^R, infrY, Y^y_{p=1,2,∞}" pt 7,\
 	"c3d(y).txt" notitle ls 1 w lp,\
 	"d(y).txt" title "d(y)" pt 3 ps 1 lc rgb "blue"
