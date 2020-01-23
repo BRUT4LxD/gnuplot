@@ -1,0 +1,5 @@
+reset
+load "setFRanges.txt"
+load "styles.txt"
+plot \
+	"fx_points.txt" title "F(x)" ls 7 w lp
